@@ -20,7 +20,7 @@ Lightweight, less than 0kb, and no dependencies!
 ### Examples : 
 ```
 import React from 'react';
-import 'character' from Character
+import from Character 'character' 
 // Application that prints the word hello.
 class Application extends React.Component {
   render() {
