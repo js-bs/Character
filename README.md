@@ -26,7 +26,7 @@ class Application extends React.Component {
   render() {
     return (
       <div>
-        <Character letter='H' isCapital={true}/>
+        <Character letter='h' isCapital={true}/>
         <Character letter='e' isCapital={false}/>
         <Character letter='l' isCapital={false}/>
         <Character letter='l' isCapital={false}/>
