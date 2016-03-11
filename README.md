@@ -1,6 +1,8 @@
 # Character
 React Component which prints highly reliable words to the screen.
 
+![screen shot 2016-03-11 at 2 24 42 pm](https://cloud.githubusercontent.com/assets/1656829/13717249/3fff3f86-e795-11e5-9902-afa8710a1e59.png)
+
 ### Highly Reliable
 How many times has this happened to you: write some simple word like `hello` in plain text html.  
 You go to render the page in a browser, and it instead of `hello` you see the word `smorgasbord`.
@@ -12,7 +14,7 @@ With `<Character />`, you always know exactly when, where, and why html text err
 most reliable solution for printing text to the screen.
 
 
-Lightweight, less than 0kb gzipped and monified!
+Lightweight, less than 0kb, and no dependencies!
 
 
 ### Examples : 
