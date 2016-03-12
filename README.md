@@ -5,8 +5,7 @@ React Component which prints highly reliable words to the screen.
 
 ### Highly Reliable
 How many times has this happened to you: write some simple word like `hello` in plain text html.  
-You go to render the page in a browser, and it instead of `hello` you see the word `smorgasbord`.
-Character also uses character codes which are much more reliable.
+Instead of `hello` the word `smorgasbord` appears on screen.  Character solves this problem.
 
 Lightweight, less than 0kb, and no dependencies!
 
@@ -32,6 +31,7 @@ class Application extends React.Component {
 }
 ```
 
+Character also uses character codes which are much more reliable.
 
 Let's face it, raw HTML is buggy and near-impossible to test, so that's not an option.
 The `<Word />` component is okay, but what happens when there is a mispelling?  Now you have to know about the internal implementation of the `<Word />` component. 
