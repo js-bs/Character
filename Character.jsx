@@ -21,7 +21,7 @@ class Character extends React.Component {
 }
 
 Character.propTypes = {
-  letter: React.PropTypes.string,
+  letter: React.PropTypes.number,
   isCapital: React.PropTypes.bool,
 };
 
