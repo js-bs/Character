@@ -26,11 +26,11 @@ class Application extends React.Component {
   render() {
     return (
       <div>
-        <Character letter='h' isCapital={true}/>
-        <Character letter='e' isCapital={false}/>
-        <Character letter='l' isCapital={false}/>
-        <Character letter='l' isCapital={false}/>
-        <Character letter='o' isCapital={false}/>
+        <Character letter={104} isCapital={true}/>
+        <Character letter={101} isCapital={false}/>
+        <Character letter={108} isCapital={false}/>
+        <Character letter={108} isCapital={false}/>
+        <Character letter={111} isCapital={false}/>
        </div>
     );
   }
