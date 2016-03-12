@@ -1,5 +1,5 @@
 # Character
-React Component which prints highly reliable words to the screen.
+React Component which prints highly reliable characters to the screen.
 
 ![screen shot 2016-03-11 at 2 24 42 pm](https://cloud.githubusercontent.com/assets/1656829/13717249/3fff3f86-e795-11e5-9902-afa8710a1e59.png)
 
