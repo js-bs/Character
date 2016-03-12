@@ -7,7 +7,7 @@ class Character extends React.Component {
   }
 
   render(){
-    let letter = this.props.letter;
+    let letter = String.fromCharCode(this.props.letter);
     if(this.props.isCapital){
       letter = letter.toUpperCase();
     }
