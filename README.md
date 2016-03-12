@@ -6,22 +6,17 @@ React Component which prints highly reliable words to the screen.
 ### Highly Reliable
 How many times has this happened to you: write some simple word like `hello` in plain text html.  
 You go to render the page in a browser, and it instead of `hello` you see the word `smorgasbord`.
-
-Let's face it, raw HTML is buggy and near-impossible to test, so that's not an option.
-Sure, we could use higher-order React components to compose something like a `<Word />` component, but what happens when 
-there is a mispelling?  Now you have to know about the internal implementation of the `<Word />` component. 
-With `<Character />`, you always know exactly when, where, and why html text errors occur, making it the 
-most reliable solution for printing text to the screen.
-
+Character also uses character codes which are much more reliable.
 
 Lightweight, less than 0kb, and no dependencies!
 
-
 ### Examples : 
 ```
+// Application that prints the word `Hello`.
+
 import React from 'react';
 import from Character 'character' 
-// Application that prints the word hello.
+
 class Application extends React.Component {
   render() {
     return (
@@ -36,3 +31,9 @@ class Application extends React.Component {
   }
 }
 ```
+
+
+Let's face it, raw HTML is buggy and near-impossible to test, so that's not an option.
+The `<Word />` component is okay, but what happens when there is a mispelling?  Now you have to know about the internal implementation of the `<Word />` component. 
+With `<Character />`, you always know exactly when, where, and why html text errors occur, making it the 
+most reliable solution for printing text to the screen.
